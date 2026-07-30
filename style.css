@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    background: #fff8e1;
+    text-align: center;
+}
+
+nav {
+    background: green;
+    padding: 20px;
+}
+
+nav h2 {
+    color: white;
+    display: inline;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.home, .fruits, .order {
+    padding: 50px;
+}
+
+h1 {
+    color: orange;
+    margin: 20px;
+}
+
+img {
+    width: 300px;
+    border-radius: 15px;
+}
+
+button {
+    background: orange;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: green;
+}
